@@ -1,6 +1,6 @@
 # Assignment Question Answer 
 
-**What are some differences between interfaces and types in TypeScript?**
+**1.What are some differences between interfaces and types in TypeScript?**
 
 Ans:
 
@@ -8,7 +8,7 @@ Ans:
 * Interface computed properties are not supported, but type fully support.
 * Interface can be merged, but type cannot be merged.
 
-**What is the use of the keyof keyword in TypeScript? Provide an example.**
+**2.What is the use of the keyof keyword in TypeScript? Provide an example.**
 
 Ans: `keyof` keyword is used for get all union keys.
 
@@ -20,7 +20,7 @@ type PersonKeys = keyof Person; // "name" | "age"
 ```
 
 
-**Provide an example of using union and intersection types in TypeScript?**
+**3.Provide an example of using union and intersection types in TypeScript?**
 
 Ans:
 
